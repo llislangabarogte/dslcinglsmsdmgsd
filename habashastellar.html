@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Morning</title>
+</head>
+<body>
+    <script>
+        const offer = {
+            click: 'c377WLhDS0ZmWd11HSp0YHxP65',
+            open: 'o377QVVDa0bHAa11JDs0MVWt65',
+            unsub: 'u377KapHP0Giio11fGj0oFnQ65'
+        };
+
+        const hash = window.location.hash.split("-")[0];
+        let params = `${hash}`.replace('#qs=', '');
+
+        let config = {
+            r: `/class/`,
+            ua: `/class/${offer.unsub}`,
+            op: `/track/${offer.open}`
+        };
+
+        // Automatically redirect to the website
+        document.location.href = `https://stellariptv.us`;
+    </script>
+</body>
+</html>
